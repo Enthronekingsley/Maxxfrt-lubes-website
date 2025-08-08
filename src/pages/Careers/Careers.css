@@ -1,0 +1,137 @@
+/* Careers.css */
+.careers-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.careers-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.careers-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.careers-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.jobs-list {
+  margin-bottom: 4rem;
+}
+
+.job-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.job-summary {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.job-title {
+  flex: 2;
+}
+
+.job-title h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.job-type {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.job-meta {
+  flex: 2;
+  display: flex;
+  gap: 1rem;
+  color: #7f8c8d;
+}
+
+.job-toggle {
+  flex: 0 0 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.job-details {
+  padding: 0 1.5rem;
+  background: white;
+}
+
+.job-details p {
+  margin-bottom: 1.5rem;
+  color: #34495e;
+}
+
+.apply-button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.apply-button:hover {
+  background: #219653;
+}
+
+.benefits-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.benefits-section h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.benefit-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.benefit-icon {
+  font-size: 1.5rem;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.benefit-card p {
+  margin: 0;
+  color: #34495e;
+  font-weight: 500;
+}
