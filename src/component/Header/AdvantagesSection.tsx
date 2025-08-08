@@ -39,7 +39,7 @@ const AdvantagesSection = () => {
     {
       title: "Source Manufacturer",
       description:
-        "FRTUBE lubricants is a leader in the innovation, formulation and manufacture of specialty lubricants in China market. FRTUBE are tailor-made speciality lubricant manufacturer.",
+        "MaxxFrt-Lube lubricants is a leader in the innovation, formulation and manufacture of specialty lubricants in China market. FRTUBE are tailor-made speciality lubricant manufacturer.",
       icon: <FaOilCan className="text-4xl text-blue-600" />,
     },
     {
@@ -51,7 +51,7 @@ const AdvantagesSection = () => {
     {
       title: "Our Mission",
       description:
-        "FRTUBE is committed to provide added-value based solutions to sure the optimum solution for customers.",
+        "MaxxFrt-Lube is committed to provide added-value based solutions to sure the optimum solution for customers.",
       icon: <FaOilCan className="text-4xl text-blue-600" />,
     },
     {
