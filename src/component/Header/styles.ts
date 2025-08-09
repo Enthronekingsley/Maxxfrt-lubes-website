@@ -266,7 +266,7 @@ export const MobileMenuContainer = styled.div<{ $isOpen: boolean }>`
   top: 0;
   right: 0;
   width: 85%;
-  max-width: 400px;
+  max-width: 300px;
   height: 100vh;
   background: white;
   z-index: 1001;
@@ -350,6 +350,14 @@ export const MobileNavItem = styled.li`
   }
 `;
 
+export const SearchInput = styled.input`
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+`;
+
 export const MobileSearchContainer = styled.div<{ $isOpen: boolean }>`
   position: fixed;
   top: 0;
@@ -362,14 +370,12 @@ export const MobileSearchContainer = styled.div<{ $isOpen: boolean }>`
   transform: translateY(${({ $isOpen }) => ($isOpen ? "0" : "-100%")});
   transition: transform 0.3s ease;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-`;
+  width: 100%;
+  box-sizing: border-box;
 
-export const SearchInput = styled.input`
-  flex: 1;
-  padding: 10px 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1rem;
+  ${SearchInput} {
+    width: calc(100% - 50px);
+  }
 `;
 
 export const SearchButton = styled.button`
