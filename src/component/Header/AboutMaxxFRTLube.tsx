@@ -1,5 +1,5 @@
 import { motion, Variants } from "framer-motion";
-import companyImage from "../../assets/hero_img.png";
+import companyImage from "../../assets/companyImage.png";
 
 const AboutMaxxFRTLube = () => {
   const containerVariants: Variants = {
