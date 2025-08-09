@@ -14,10 +14,6 @@ const Header: React.FC = () => {
     setIsMenuOpen(true);
   };
 
-  const handleSearchClick = () => {
-    setIsSearchOpen(true);
-  };
-
   const closeMobileMenu = () => {
     setIsMenuOpen(false);
   };
@@ -28,7 +24,6 @@ const Header: React.FC = () => {
 
       <MainNav
         onMenuClick={handleMenuClick}
-        onSearchClick={handleSearchClick}
         isMobileMenuOpen={isMenuOpen}
         closeMobileMenu={closeMobileMenu}
       />
